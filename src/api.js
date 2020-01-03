@@ -1,0 +1,1 @@
+export const API_URL = 'https://tp-igl.herokuapp.com/'

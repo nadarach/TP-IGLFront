@@ -1,0 +1,286 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+.login-page{
+	width: 360px;
+	padding: 10% 0 0 ;
+	margin: auto;
+}
+
+.form{
+	position: relative;
+	 z-index : l;
+	 background: rgba(43, 46, 59, 0.8); ; 
+	 max-width: 360 px;
+	 margin: 0 auto 100px;
+	 padding: 45px;
+	 text-align: center;
+}
+.form input {
+	font-family: "Roboto";
+	outline: 1;
+	background: #f2f2f2;
+	width: 100%;
+	border: 0;
+	margin: 0 0 15px;
+	padding: 15px;
+	box-sizing: border-box;
+	font-size: 14px;
+}
+.form button{
+	font-family: "Roboto";
+	text-transform: uppercase;
+	outline: 0;
+	background: #2bdae3;
+	width: 100%;
+	border: 0;
+	padding: 15px;
+	color:#ffffff;
+	font-size: 14px;
+	cursor: pointer;
+}
+.form button:hover,.form button:active{
+	background: #18c0c9;
+}
+.form .message{
+	margin: 15px;
+	font-size: 12px;
+	color: #ffffff;
+}
+
+    .boutonco {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #2bdae3;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 1.1em;
+    padding: 10px;
+    width: 200px;
+    transition: all 0.5s;
+	cursor: pointer;
+	vertical-align:middle;
+	margin-top: 10px;
+  }
+  
+  .boutonco span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .boutonco span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .boutonco:hover span {
+    padding-right: 25px;
+  }
+  
+  .boutonco:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  .nav {
+	  float : top;
+    float: right;
+  }
+  
+
+
+.header {
+  padding: 10px 16px;
+  background: rgba(255, 255, 255);
+  width: 100%;
+  height: 80px;
+  top: 0;
+  position : fixed;
+}
+
+
+.header .container h1{
+	margin-left: 50px;
+	margin-top: 5px;
+	font-family: Segoe UI ;
+	color: #272727;
+	float: left;
+}
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+.header .container h1 span{
+		color: #2bdae3;
+	font-family: Segoe UI ; 
+}
+
+a {
+	text-decoration: none;
+}
+
+
+.bg-image {
+  /* The image used */
+  height: 100vh;
+  background-image: url('e.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 80px;
+}
+
+
+
+.footer {
+	background : #ffffff;
+	color: #d3d3d3;
+	height: 250px;
+	position: relative;
+	
+}
+
+.footer .footer-content{
+	
+	height: 300px;
+	display: flex;
+	margin-bottom: 50px;
+}
+
+.footer .footer-content .footer-section{
+	flex: 1;
+	margin-left: 40px;
+	
+}
+
+
+.footer .footer-content h1,
+.footer .footer-content h2{
+	margin-left: 50px;
+	font-family: Segoe UI ;
+	color: #272727;
+	 
+}
+
+
+.footer .footer-content .about h1 span {
+	color: #2bdae3;
+	font-family: Segoe UI ; 
+}
+
+.footer .footer-content .about .contact span {
+	display: block;
+	font-size: 1.1em;
+	color:  black;
+	margin-bottom: 8px;
+	font-family: Segoe UI ; 
+
+}
+.footer .footer-content .about p {
+	color: black;
+	font-family: Segoe UI ; 
+	margin-right: 100px;
+
+}
+
+.footer .footer-content .about .socials a
+{
+	color: black;
+	width: 45px;
+	height: 41px;
+	padding-top: 5px;
+	margin-right: 5px;
+	text-align: center;
+	display: inline-block;
+	font-size: 1.3em;
+	border-radius: 5px;
+	text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+}
+
+.footer .footer-content .links .first
+{
+	font-family: Segoe UI;
+}
+
+.footer .footer-content .about .socials a:hover 
+{
+	color: #686868;
+	transition: all .3s;
+
+}
+
+
+
+
+.footer .footer-content .contact .second
+{
+		font-family: Segoe UI;
+
+}
+
+
+.footer .footer-content .links ul a {
+	display: block;
+	margin-bottom: 10px;
+	font-size: 1.2em;
+	font-family: Segoe UI ; 
+	color: black;
+	text-decoration: none;
+	transition: all .3s;
+
+}
+
+.footer .footer-content .links ul a:hover 
+{
+	color: #686868;
+	margin-left: 15px;
+	transition: all .3s;
+}
+
+.footer .footer-content .contact-form .contact-input {
+	border: none;
+	background: #ffffff;
+	margin-left: 70px;
+	margin-bottom: 10px;
+	line-height: 1.5rem;
+	padding: .9rem 1.rem;
+	width: 200px;
+	border: 1px solid #ccc;
+
+}
+
+.footer .footer-content .contact-form .contact-input:focus {
+
+background: #120F35;
+color: #ffffff;
+}
+
+.footer .footer-content .contact-form .contact-btn {
+	margin-right: 20px;
+	float : right;
+}
+
+.btn-big{
+	padding: .5rem 1.3rem;
+	line-height: 1.3rem;
+	color: #ffffff;
+	background: #29cece;
+	border: none;
+
+}
